@@ -1,0 +1,67 @@
+
+div#auth_manager div#acl__tree {
+    font-size: 85%;
+    width: 20%;
+    height: 230px;
+    float: left;
+    overflow: auto;
+    text-align: left;
+}
+
+div#auth_manager div#acl__tree a.cur {
+    background-color: __highlight__;
+    font-weight: bold;
+}
+
+div#auth_manager div#acl__tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#auth_manager div#acl__tree li {
+    padding-left: 1em;
+}
+
+div#auth_manager div#acl__tree ul img {
+    margin-right: 0.25em;
+    cursor: pointer;
+}
+
+div#auth_manager div#acl__detail {
+    width: 74%;
+    height: 300px;
+    float: right;
+    overflow: auto;
+}
+
+div#auth_manager div#acl__detail fieldset {
+    width: 90%;
+}
+
+
+div#auth_manager table.inline {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+
+div#auth_manager .aclns {
+    font-size: 73%;
+    background: transparent 0px 1px no-repeat;
+    padding: 1px 0px 1px 18px;
+}
+
+
+#auth_manager label {
+  text-align: left;
+  font-weight: normal;
+  display: inline;
+}
+
+#auth_manager table {
+  margin-left: 10%;
+  width: 80%;
+}
+

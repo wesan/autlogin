@@ -5,6 +5,7 @@
  * 
  * @author Ondrej Machac <omachac@seznam.cz>
  */
+ 
 
 if(!defined('DOKU_INC')) die();
 if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
@@ -701,3 +702,4 @@ class action_plugin_autlogin extends DokuWiki_Action_Plugin {
     
     }
 }
+ ?>
